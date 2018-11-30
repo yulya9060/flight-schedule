@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 const App = () => (
     <div className="App">
@@ -19,7 +19,7 @@ and save to reload.
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                Learn React
+                <span className="App-link_red">Learn React</span>
             </a>
         </header>
     </div>
